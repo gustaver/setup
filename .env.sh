@@ -12,3 +12,6 @@ function r() { grep "$1" ${@:2} -R . }
 
 # Create a folder and move into it in one command
 function mkcd() { mkdir -p "$@" && cd "$_"; }
+
+# C++ compile 
+alias cppcompile='c++ -std=c++11 -stdlib=libc++'
