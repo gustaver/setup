@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # Copy config files to home directory 
 cp .env.sh .zshrc ~
@@ -10,10 +10,10 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # brew 
-brew install zsh tree ack git vim python pandoc awscli yarn clojure 
+brew install tree ack git vim python pandoc awscli yarn clojure leiningen
 
 # brew cask
-brew install --cask appcleaner caffeine docker cheatsheet dropbox google-chrome vlc visual-studio-code spotify zoom slack whatsapp messenger intellij-idea iterm2 basictex rectangle tomighty miniconda
+brew install --cask appcleaner caffeine docker cheatsheet google-chrome vlc visual-studio-code spotify zoom slack whatsapp messenger intellij-idea iterm2 basictex rectangle tomighty miniconda
 
 # Oh My Zsh 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
