@@ -13,7 +13,7 @@ xcode-select --install
 brew install tree ack git vim python pandoc awscli yarn clojure leiningen
 
 # brew cask
-brew install --cask appcleaner caffeine docker cheatsheet google-chrome vlc visual-studio-code spotify zoom slack whatsapp messenger intellij-idea iterm2 basictex rectangle tomighty miniconda
+brew install --cask appcleaner caffeine docker cheatsheet google-chrome vlc visual-studio-code spotify zoom slack whatsapp messenger intellij-idea iterm2 basictex rectangle tomighty miniconda transmission
 
 # Oh My Zsh 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
