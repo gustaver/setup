@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/gustaver/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -21,7 +21,6 @@ plugins=(git colored-man-pages colorize pip python brew osx zsh-syntax-highlight
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
 source ~/.env.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
